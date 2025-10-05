@@ -109,6 +109,8 @@ docker run -p 8080:8080 -v $(pwd)/gcp-key.json:/app/gcp-key.json   --env-file .e
 | Method | Endpoint | Description |
 |--------|-----------|-------------|
 | `POST` | `/upload` | Upload a video (streamed upload + auto transcode) |
+| `GET`  | `/video`  | List transcoded videos with URLs.                 |
+
 
 ### Example Upload (Postman)
 - URL: `http://localhost:8080/upload`
