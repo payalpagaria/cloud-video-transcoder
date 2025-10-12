@@ -181,7 +181,11 @@ Visit → `http://localhost:8080`
 
 ---
 
+💻 UI for Video Transcoder
 
+A dedicated React + Vite frontend has been developed for this backend.
+You can explore it here:
+👉 Video Transcoder UI – https://github.com/payalpagaria/cloud-transcoder-ui
 
 
 ## 📜 License
